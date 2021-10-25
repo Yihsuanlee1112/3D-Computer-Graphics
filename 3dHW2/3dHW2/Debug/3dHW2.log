@@ -1,0 +1,8 @@
+﻿  HW2.cpp
+C:\Users\wmlab\source\repos\3dHW2\3dHW2\HW2.cpp(91,10): warning C4244: '正在初始化': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\wmlab\source\repos\3dHW2\3dHW2\HW2.cpp(91,18): warning C4244: '正在初始化': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\wmlab\source\repos\3dHW2\3dHW2\HW2.cpp(91,26): warning C4244: '正在初始化': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\wmlab\source\repos\3dHW2\3dHW2\HW2.cpp(91,34): warning C4244: '正在初始化': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\wmlab\source\repos\3dHW2\3dHW2\HW2.cpp(111,11): warning C4244: '正在初始化': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\wmlab\source\repos\3dHW2\3dHW2\HW2.cpp(202,9): warning C4244: '正在初始化': 將 'double' 轉換為 'int'，由於類型不同，可能導致資料遺失
+  3dHW2.vcxproj -> C:\Users\wmlab\source\repos\3dHW2\Debug\3dHW2.exe
