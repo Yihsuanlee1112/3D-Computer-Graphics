@@ -1,0 +1,25 @@
+{
+  "version": "0.2.1",
+  "defaults": {},
+  "configurations": [
+    {
+      "type": "remoteWindows",
+      "name": "HW2.cpp",
+      "project": "3dHW2\\3dHW2\\HW2.cpp",
+      "projectTarget": "",
+      "remoteMachineName": "",
+      "cwd": "${debugInfo.defaultWorkingDirectory}",
+      "program": "${debugInfo.fullTargetPath}",
+      "deploy": [],
+      "comment": "了解如何設定遠端 Windows 偵錯。如需詳細資訊，請參閱 https://docs.microsoft.com/cpp/build/cmake-remote-debugging",
+      "args": [],
+      "env": {}
+    },
+    {
+      "type": "default",
+      "project": "3dHW2\\3dHW2\\HW2.cpp",
+      "projectTarget": "",
+      "name": "HW2.cpp(1)"
+    }
+  ]
+}

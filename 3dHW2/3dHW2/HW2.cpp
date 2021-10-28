@@ -23,6 +23,119 @@ static int winY = 500; //window size Y coordinate
 static int click_count = 0;
 static char mode = '0';
 
+void mouseFunc(int button, int state, int x, int y)
+{
+	if (button == GLUT_LEFT_BUTTON && state == GLUT_DOWN) {
+		click_count++;
+		xd = x;
+		yd = y;
+		//cout << click_count << endl;
+		//cout << "LB_DOWN x: " << xd << " y: " << yd << endl;
+		switch (mode)
+		{
+		case 'd':
+			DrawPoint();
+			break;
+		case 'l':
+			if (click_count % 2 == 1) {
+				//DrawPoint();
+				//save first point
+				xa = xd;
+				ya = yd;
+			}
+			else {
+				//save second point
+				xb = xd;
+				yb = yd;
+				drawLine();
+
+				//cout << "<" << xa << " " << ya << ">" << endl;
+				//cout << "<" << xb << " " << yb << ">" << endl;
+			}
+			break;
+		case 'p':
+			if (click_count == 1) {
+				xa = xd;
+				ya = yd;
+				//save first point
+				xs = xd;
+				ys = yd;
+			}
+			else {
+				sx = xd, sy = yd;
+				xb = xd, yb = yd;
+				drawLine();
+			}
+			break;
+		case 'o':
+			xa = xd;
+			ya = yd;
+
+			break;
+		}
+	}
+	if (button == GLUT_LEFT_BUTTON && state == GLUT_UP) {
+		xd = x;
+		yd = y;
+		//cout << "LB_UP x: " << xd << " y: " << yd << endl;
+		if (mode == 'o') {
+			click_count++;
+			xb = xd;
+			yb = yd;
+			drawCircle();
+		}
+	}
+	if (button == GLUT_RIGHT_BUTTON && state == GLUT_DOWN) {
+		if (mode == 'p') {
+			xb = xs;
+			yb = ys;
+			drawLine();
+			click_count = 0;
+		}
+	}
+
+}
+
+
+void keyboardFunc(unsigned char c, int x, int y)
+{
+	switch (c)
+	{
+	case 27:
+		std::cout << c << endl;
+		break;
+	case 'd'://draw point
+		mode = 'd';
+		click_count = 0;
+		break;
+	case 'l'://draw line
+		mode = 'l';
+		click_count = 0;
+		break;
+	case 'p'://draw polygon
+		mode = 'p';
+		click_count = 0;
+		break;
+	case 'o'://draw circle
+		mode = 'o';
+		click_count = 0;
+		break;
+	case 'c'://clear
+		click_count = 0;
+		glClearColor(0.0f, 0.0f, 0.0f, 0.0f);
+		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+		glFlush();
+		break;
+	case 'r'://recover
+		cout << "recover" << endl;
+		redraw();
+		break;
+	case 'q'://quit
+		exit(1);
+		break;
+	}
+}
+
 void savePixel(int x, int y) {
 	save_count++;
 	save[save_count].x = x;
@@ -310,121 +423,6 @@ void redraw() {
 	}
 }
 
-void mouseFunc(int button, int state, int x, int y)
-{
-	if (button == GLUT_LEFT_BUTTON && state == GLUT_DOWN) {
-		click_count++;
-		xd = x;
-		yd = y;
-		//cout << click_count << endl;
-		//cout << "LB_DOWN x: " << xd << " y: " << yd << endl;
-		switch (mode)
-		{
-		case 'd':
-			DrawPoint();
-			break;
-		case 'l':
-			if (click_count % 2 == 1) {
-				//DrawPoint();
-				//save first point
-				xa = xd;
-				ya = yd;
-			}
-			else {
-				//save second point
-				xb = xd;
-				yb = yd;
-				drawLine();
-
-				//cout << "<" << xa << " " << ya << ">" << endl;
-				//cout << "<" << xb << " " << yb << ">" << endl;
-			}
-			break;
-		case 'p':
-			if (click_count == 1) {
-				xa = xd;
-				ya = yd;
-				//save first point
-				xs = xd;
-				ys = yd;
-			}
-			else {
-				sx = xd, sy = yd;
-				xb = xd, yb = yd;
-				drawLine();
-			}
-			break;
-		case 'o':
-			xa = xd;
-			ya = yd;
-
-			break;
-		}
-	}
-
-	if (button == GLUT_LEFT_BUTTON && state == GLUT_UP) {
-		xd = x;
-		yd = y;
-		//cout << "LB_UP x: " << xd << " y: " << yd << endl;
-		if (mode == 'o') {
-			click_count++;
-			xb = xd;
-			yb = yd;
-			drawCircle();
-		}
-	}
-	if (button == GLUT_RIGHT_BUTTON && state == GLUT_DOWN) {
-		if (mode == 'p') {
-			xb = xs;
-			yb = ys;
-			drawLine();
-			click_count = 0;
-		}
-	}
-
-}
-
-void keyboardFunc(unsigned char c, int x, int y)
-{
-	switch (c)
-	{
-	case 27:
-		std::cout << c << endl;
-		break;
-	case 'd'://draw point
-		mode = 'd';
-		click_count = 0;
-		break;
-	case 'l'://draw line
-		mode = 'l';
-		click_count = 0;
-		break;
-	case 'p'://draw polygon
-		mode = 'p';
-		click_count = 0;
-		break;
-	case 'o'://draw circle
-		mode = 'o';
-		click_count = 0;
-		break;
-	case 'c'://clear
-		click_count = 0;
-		glClearColor(0.0f, 0.0f, 0.0f, 0.0f);
-		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-		glFlush();
-		break;
-	case 'r'://recover
-		cout << "recover" << endl;
-		redraw();
-		break;
-	case 'q'://quit
-		exit(1);
-		break;
-	}
-}
-
-
-
 int main(int argc, char* argv[])
 {
 	glutInit(&argc, argv);//initialize the GLUT library.
@@ -432,7 +430,7 @@ int main(int argc, char* argv[])
 	glutInitWindowSize(500, 500); //int width , int height
 	glutInitWindowPosition(1000, 500);//Window X, Y location in pixels.(int x, int y)
 	glutCreateWindow("110522060");//creates a top-level window.
-	glPointSize(1);//specify the diameter of rasterized points
+	glPointSize(3);//specify the diameter of rasterized points
 	glColor3f(1.0f, .0f, 0.0f);//set the current color
 	glutKeyboardFunc(keyboardFunc);// sets the keyboard callback for the current window.
 	glutMouseFunc(mouseFunc);//sets the mouse callback for the current window.
