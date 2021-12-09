@@ -1,0 +1,5 @@
+﻿  2021CG_Lab2_110522060.cpp
+C:\Users\wmlab\source\repos\2021CG_Lab2_110522060\2021CG_Lab2_110522060.cpp(150,9): warning C4101: 'temp': 未參考的區域變數
+C:\Users\wmlab\source\repos\2021CG_Lab2_110522060\2021CG_Lab2_110522060.cpp(532,22): warning C4018: '<': signed/unsigned 不相符
+C:\Users\wmlab\source\repos\2021CG_Lab2_110522060\2021CG_Lab2_110522060.cpp(613,22): warning C4018: '<': signed/unsigned 不相符
+  2021CG_Lab2_110522060.vcxproj -> C:\Users\wmlab\source\repos\2021CG_Lab2_110522060\Debug\2021CG_Lab2_110522060.exe

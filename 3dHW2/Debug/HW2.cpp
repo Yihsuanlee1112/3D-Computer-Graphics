@@ -433,7 +433,7 @@ int main(int argc, char* argv[])
 	glutInitWindowPosition(1000, 500);//Window X, Y location in pixels.(int x, int y)
 	glutCreateWindow("110522060");//creates a top-level window.
 	glPointSize(1);//specify the diameter of rasterized points
-	glColor3f(1.0f, .0f, 0.0f);//set the current color
+	glColor3f(1.0f, 0.0f, 0.0f);//set the current color
 	glutKeyboardFunc(keyboardFunc);// sets the keyboard callback for the current window.
 	glutMouseFunc(mouseFunc);//sets the mouse callback for the current window.
 	glClearColor(0.0f, 0.0f, 0.0f, 0.0f);//specify clear values for the color buffers
