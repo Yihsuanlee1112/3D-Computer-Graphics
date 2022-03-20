@@ -1,0 +1,29 @@
+﻿  2021CG_Lab3_110522060.cpp
+C:\Users\wmlab\source\repos\2021CG_Lab3_110522060\2021CG_Lab3_110522060.cpp(29,37): warning C4305: '正在初始化': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+C:\Users\wmlab\source\repos\2021CG_Lab3_110522060\2021CG_Lab3_110522060.cpp(70,10): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\wmlab\source\repos\2021CG_Lab3_110522060\2021CG_Lab3_110522060.cpp(71,10): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\wmlab\source\repos\2021CG_Lab3_110522060\2021CG_Lab3_110522060.cpp(133,28): warning C4244: '+=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\wmlab\source\repos\2021CG_Lab3_110522060\2021CG_Lab3_110522060.cpp(233,17): warning C4244: '=': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\wmlab\source\repos\2021CG_Lab3_110522060\2021CG_Lab3_110522060.cpp(234,9): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\wmlab\source\repos\2021CG_Lab3_110522060\2021CG_Lab3_110522060.cpp(264,10): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\wmlab\source\repos\2021CG_Lab3_110522060\2021CG_Lab3_110522060.cpp(439,49): warning C4267: '=': 將 'size_t' 轉換為 'int'，資料可能遺失
+C:\Users\wmlab\source\repos\2021CG_Lab3_110522060\2021CG_Lab3_110522060.cpp(527,10): warning C4244: '正在初始化': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\wmlab\source\repos\2021CG_Lab3_110522060\2021CG_Lab3_110522060.cpp(527,18): warning C4244: '正在初始化': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\wmlab\source\repos\2021CG_Lab3_110522060\2021CG_Lab3_110522060.cpp(527,26): warning C4244: '正在初始化': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\wmlab\source\repos\2021CG_Lab3_110522060\2021CG_Lab3_110522060.cpp(527,34): warning C4244: '正在初始化': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\wmlab\source\repos\2021CG_Lab3_110522060\2021CG_Lab3_110522060.cpp(555,13): warning C4244: '引數': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\wmlab\source\repos\2021CG_Lab3_110522060\2021CG_Lab3_110522060.cpp(556,17): warning C4244: '引數': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\wmlab\source\repos\2021CG_Lab3_110522060\2021CG_Lab3_110522060.cpp(592,14): warning C4244: '引數': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\wmlab\source\repos\2021CG_Lab3_110522060\2021CG_Lab3_110522060.cpp(593,18): warning C4244: '引數': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\wmlab\source\repos\2021CG_Lab3_110522060\2021CG_Lab3_110522060.cpp(616,28): warning C4244: '引數': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\wmlab\source\repos\2021CG_Lab3_110522060\2021CG_Lab3_110522060.cpp(616,21): warning C4244: '引數': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\wmlab\source\repos\2021CG_Lab3_110522060\2021CG_Lab3_110522060.cpp(660,19): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\wmlab\source\repos\2021CG_Lab3_110522060\2021CG_Lab3_110522060.cpp(662,19): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\wmlab\source\repos\2021CG_Lab3_110522060\2021CG_Lab3_110522060.cpp(667,19): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\wmlab\source\repos\2021CG_Lab3_110522060\2021CG_Lab3_110522060.cpp(669,19): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\wmlab\source\repos\2021CG_Lab3_110522060\2021CG_Lab3_110522060.cpp(674,19): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\wmlab\source\repos\2021CG_Lab3_110522060\2021CG_Lab3_110522060.cpp(676,19): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\wmlab\source\repos\2021CG_Lab3_110522060\2021CG_Lab3_110522060.cpp(715,27): warning C4267: '正在初始化': 將 'size_t' 轉換為 'int'，資料可能遺失
+C:\Users\wmlab\source\repos\2021CG_Lab3_110522060\2021CG_Lab3_110522060.cpp(932,47): warning C4267: '正在初始化': 將 'size_t' 轉換為 'int'，資料可能遺失
+C:\Users\wmlab\source\repos\2021CG_Lab3_110522060\2021CG_Lab3_110522060.cpp(933,20): warning C4018: '<': signed/unsigned 不相符
+  2021CG_Lab3_110522060.vcxproj -> C:\Users\wmlab\source\repos\2021CG_Lab3_110522060\x64\Debug\2021CG_Lab3_110522060.exe

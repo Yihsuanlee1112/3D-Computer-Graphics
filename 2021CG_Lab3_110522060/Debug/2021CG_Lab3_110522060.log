@@ -1,0 +1,30 @@
+﻿  2021CG_Lab3_110522060.cpp
+C:\Users\wmlab\source\repos\2021CG_Lab3_110522060\2021CG_Lab3_110522060.cpp(29,37): warning C4305: '正在初始化': 從 'double' 轉換為 'float'，是由較大的類型轉換為較小的類型，可能導致資料遺失
+C:\Users\wmlab\source\repos\2021CG_Lab3_110522060\2021CG_Lab3_110522060.cpp(84,10): warning C4244: '正在初始化': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\wmlab\source\repos\2021CG_Lab3_110522060\2021CG_Lab3_110522060.cpp(85,10): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\wmlab\source\repos\2021CG_Lab3_110522060\2021CG_Lab3_110522060.cpp(145,28): warning C4244: '+=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\wmlab\source\repos\2021CG_Lab3_110522060\2021CG_Lab3_110522060.cpp(242,17): warning C4244: '=': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\wmlab\source\repos\2021CG_Lab3_110522060\2021CG_Lab3_110522060.cpp(243,9): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\wmlab\source\repos\2021CG_Lab3_110522060\2021CG_Lab3_110522060.cpp(269,10): warning C4244: '正在初始化': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\wmlab\source\repos\2021CG_Lab3_110522060\2021CG_Lab3_110522060.cpp(350,16): warning C4018: '<': signed/unsigned 不相符
+C:\Users\wmlab\source\repos\2021CG_Lab3_110522060\2021CG_Lab3_110522060.cpp(351,17): warning C4018: '<': signed/unsigned 不相符
+C:\Users\wmlab\source\repos\2021CG_Lab3_110522060\2021CG_Lab3_110522060.cpp(359,19): warning C4018: '<': signed/unsigned 不相符
+C:\Users\wmlab\source\repos\2021CG_Lab3_110522060\2021CG_Lab3_110522060.cpp(513,10): warning C4244: '正在初始化': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\wmlab\source\repos\2021CG_Lab3_110522060\2021CG_Lab3_110522060.cpp(513,18): warning C4244: '正在初始化': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\wmlab\source\repos\2021CG_Lab3_110522060\2021CG_Lab3_110522060.cpp(513,26): warning C4244: '正在初始化': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\wmlab\source\repos\2021CG_Lab3_110522060\2021CG_Lab3_110522060.cpp(513,34): warning C4244: '正在初始化': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\wmlab\source\repos\2021CG_Lab3_110522060\2021CG_Lab3_110522060.cpp(538,13): warning C4244: '引數': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\wmlab\source\repos\2021CG_Lab3_110522060\2021CG_Lab3_110522060.cpp(539,17): warning C4244: '引數': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\wmlab\source\repos\2021CG_Lab3_110522060\2021CG_Lab3_110522060.cpp(574,14): warning C4244: '引數': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\wmlab\source\repos\2021CG_Lab3_110522060\2021CG_Lab3_110522060.cpp(575,18): warning C4244: '引數': 將 'int' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\wmlab\source\repos\2021CG_Lab3_110522060\2021CG_Lab3_110522060.cpp(597,28): warning C4244: '引數': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\wmlab\source\repos\2021CG_Lab3_110522060\2021CG_Lab3_110522060.cpp(597,21): warning C4244: '引數': 將 'float' 轉換為 'int'，由於類型不同，可能導致資料遺失
+C:\Users\wmlab\source\repos\2021CG_Lab3_110522060\2021CG_Lab3_110522060.cpp(641,19): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\wmlab\source\repos\2021CG_Lab3_110522060\2021CG_Lab3_110522060.cpp(643,19): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\wmlab\source\repos\2021CG_Lab3_110522060\2021CG_Lab3_110522060.cpp(648,19): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\wmlab\source\repos\2021CG_Lab3_110522060\2021CG_Lab3_110522060.cpp(650,19): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\wmlab\source\repos\2021CG_Lab3_110522060\2021CG_Lab3_110522060.cpp(655,19): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\wmlab\source\repos\2021CG_Lab3_110522060\2021CG_Lab3_110522060.cpp(657,19): warning C4244: '=': 將 'double' 轉換為 'float'，由於類型不同，可能導致資料遺失
+C:\Users\wmlab\source\repos\2021CG_Lab3_110522060\2021CG_Lab3_110522060.cpp(699,18): warning C4018: '<': signed/unsigned 不相符
+C:\Users\wmlab\source\repos\2021CG_Lab3_110522060\2021CG_Lab3_110522060.cpp(883,20): warning C4018: '<': signed/unsigned 不相符
+  2021CG_Lab3_110522060.vcxproj -> C:\Users\wmlab\source\repos\2021CG_Lab3_110522060\Debug\2021CG_Lab3_110522060.exe

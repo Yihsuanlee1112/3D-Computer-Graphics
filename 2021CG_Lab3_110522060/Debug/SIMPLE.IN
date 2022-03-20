@@ -1,0 +1,26 @@
+500 500
+
+nobackfaces
+translate 1 0 0
+object glass.asc
+
+viewport -1 1 -1 1
+
+observer 2 2 2 0 0 0 0 .1 1000 20
+display
+
+observer 2 2 1 0 0 0 0 .1 1000 20
+display
+
+observer 2 2 0 0 0 0 0 .1 1000 20
+display
+
+observer 2 2 2 0 0 0 0 .1 1000 20
+display
+
+observer 1 2 2 0 0 0 0 .1 1000 20
+display
+
+observer 0 2 2 0 0 0 0 .1 1000 20
+display
+end
